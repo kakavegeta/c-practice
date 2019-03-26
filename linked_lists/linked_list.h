@@ -23,7 +23,8 @@ int end(node *head);
 void insert(node **head, int index, int val);
 void remove(node **head, int index);
 int value_nth_from_end(node *head, int n);
-void reverse(node *head);
+void reverse(node **head);
+void reverse_recursive(node **head);
 void remove_value(node **head, int val);
 
 void check_address(node *addr);

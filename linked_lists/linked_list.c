@@ -177,8 +177,3 @@ void reverse_recursive(node **head) {
 
     *head = rest;
 }
-
-void remove_value(node **head, int val) {
-    node *cur = head;
-
-}

@@ -21,7 +21,7 @@ int pop_back(node **head);
 int front(node *head);
 int end(node *head);
 void insert(node **head, int index, int val);
-void remove(node **head, int index);
+//void remove(node **head, int index);
 int value_nth_from_end(node *head, int n);
 void reverse(node **head);
 void reverse_recursive(node **head);

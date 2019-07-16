@@ -44,7 +44,6 @@ void push_front(node **head, int val) {
     p->next = *head;
     *head = p; } 
     
-    
 void push_back(node **head, int val) {
     node *p = malloc(sizeof(node));
     p->val = val;
@@ -63,6 +62,7 @@ void push_back(node **head, int val) {
 
     cur->next = p;
 }
+
 
 int front(node *head) {
     if (head==NULL) {
@@ -104,7 +104,7 @@ void insert(node **head, int index, int val) {
     *cur = new_node;
 
 } 
-
+/* 
 void remove(node **head, int index) {
     node **cur = head;
     int i;
@@ -119,7 +119,7 @@ void remove(node **head, int index) {
 
     *cur = (*cur)->next;
 }
-
+*/
 int value_nth_from_end(node *head, int n) {
     if (n<1 || head==NULL) {
         printf("illegal linked list and index; n shoudld >=1.");
